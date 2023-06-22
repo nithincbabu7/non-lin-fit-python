@@ -3,6 +3,8 @@ A plug-and-play python code for applying non-linear fitting to two lists of data
 
 ## Usage
 ```
+from analysis import NonLinearFit
+
 # find a non-linear fit to map score1 to score2
 nlinfit = NonLinearFit(score1, score2)
 
