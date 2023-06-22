@@ -5,9 +5,9 @@ A plug-and-play python code for applying non-linear fitting to two lists of data
 ```
 from analysis import NonLinearFit
 
-# find a non-linear fit to map score1 to score2
+# find a non-linear fit to map score2 to score1
 nlinfit = NonLinearFit(score1, score2)
 
-# use the learnt fitting parameters to trensform score1
+# use the learned fitting parameters to transform score2
 fitted_score = nlinfit.transform(score2)
 ```
